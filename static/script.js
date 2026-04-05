@@ -1,3 +1,4 @@
+alert("clicked");
 async function analyzeCandidate() {
     const jd = document.getElementById("jd").value.trim();
     const transcript = document.getElementById("transcript").value.trim();
