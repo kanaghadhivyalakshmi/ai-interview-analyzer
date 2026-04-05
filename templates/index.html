@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Interview Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AI Interview Feedback Analyzer</h1>
+
+    <label>Job Description</label>
+    <textarea id="jd"></textarea>
+
+    <label>Interview Transcript</label>
+    <textarea id="transcript"></textarea>
+
+    <button onclick="analyzeCandidate()">Analyze Candidate</button>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
